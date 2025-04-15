@@ -5,6 +5,7 @@ public class LevelGenerator : MonoBehaviour
 {
     [Header("Bottle Settings")]
     public GameObject bottlePrefab;         // Assign your Bottle prefab via the Inspector.
+    public GameObject colourPrefab;
     public Transform bottlesParent;         // A parent container for the bottles (helps keep the hierarchy tidy).
     public int bottleCapacity = 4;          // Number of colour layers each bottle can hold.
 
